@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="checkboxs1" />
+    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="checkboxs1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Add_Remove_Elements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/checkbox.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,20 +47,78 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="checkbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="checkbox" />
+  <component name="RunManager" selected="TestNG.Add_Remove_Elements.addElement">
+    <configuration name="Add_Remove_Elements.addElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Add_Remove_Elements" />
+      <option name="METHOD_NAME" value="addElement" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkbox" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkbox.Checkbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkbox" />
+      <option name="METHOD_NAME" value="Checkbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkbox.Checkbox1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkbox" />
+      <option name="METHOD_NAME" value="Checkbox1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkbox.checkbox2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="checkbox" />
+      <option name="METHOD_NAME" value="checkbox2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.checkbox" />
+        <item itemvalue="TestNG.Add_Remove_Elements.addElement" />
+        <item itemvalue="TestNG.checkbox.Checkbox1" />
+        <item itemvalue="TestNG.checkbox" />
+        <item itemvalue="TestNG.checkbox.checkbox2" />
+        <item itemvalue="TestNG.checkbox.Checkbox" />
       </list>
     </recent_temporary>
   </component>
