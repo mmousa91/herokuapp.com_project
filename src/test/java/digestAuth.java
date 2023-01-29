@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 public class digestAuth {
 
+    // define variables
     WebDriver driver = null;
     String userName;
     String password;
@@ -31,14 +32,17 @@ public class digestAuth {
 
     @Test
     public void contextMenu () throws InterruptedException {
-    url = "https://"+ userName +":"+ password +"@"+domain;
-    driver.get(url);
+        //Passing credentials in the URL
+        url = "https://"+ userName +":"+ password +"@"+domain;
+        //navigate to the url
+        driver.get(url);
 
-    String actualResult = driver.findElement(By.cssSelector("div[class=\"example\"]>p")).getText();
+        // get actual result from the element
+        String actualResult = driver.findElement(By.cssSelector("div[class=\"example\"]>p")).getText();
 
-        //String actualResult = driver.findElement(By.cssSelector("div.example p")).getText();
         Thread.sleep(3000);
 
+        // make assertion to be sure that actual result equal expected result
         Assert.assertTrue(actualResult.contains("Congratulations! You must have the proper credentials."));
 
 
