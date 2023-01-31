@@ -1,3 +1,4 @@
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,7 +13,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class dynamic_controls {
+public class entryAds {
 
     WebDriver driver = null;
 
@@ -28,32 +29,19 @@ public class dynamic_controls {
 
     }
 
+
+
     @Test
-    public void checkBox () {
-        driver.navigate().to("https://the-internet.herokuapp.com/dynamic_controls");
-        driver.findElement(By.cssSelector("input[type=\"checkbox\"]")).click();
-        driver.findElement(By.cssSelector("button[onclick=\"swapCheckbox()\"]")).click();
-
-
-        //WebDriver has a class that's called WebDriverWait
-        //explicit wait
+    public void entryAds () {
+        driver.navigate().to("https://the-internet.herokuapp.com/entry_ad");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-//When click the “remove” button, we see that the loading icon is here and before we move on,
-// we need to wait until it's gone
-        // this method called invisibilityOf from expected conditions class
-        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("loading"))));
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.className("modal"))));
 
+        Assert.assertTrue(driver.findElement(By.className("modal")).isDisplayed());
 
-        String actualResult =driver.findElement(By.id("message")).getText();
-        Assert.assertEquals(actualResult,"It's gone!");
-
-
-    }
-
-    @Test
-    public void enable_disable () {
-        driver.navigate().to("https://the-internet.herokuapp.com/dynamic_controls");
-        driver.findElement(By.cssSelector("button[onclick=\"swapInput()\"]")).click();
+        Alert alert = driver.switchTo().alert();
+        alert.dismiss();
+       /* driver.findElement(By.cssSelector("button[onclick=\"swapInput()\"]")).click();
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
@@ -62,7 +50,7 @@ public class dynamic_controls {
         driver.findElement(By.cssSelector("input[type=\"text\"]")).sendKeys("hala");
 
         String actualResult =driver.findElement(By.id("message")).getText();
-        Assert.assertEquals(actualResult,"It's enabled!");
+        Assert.assertEquals(actualResult,"It's enabled!");*/
 
 
     }
