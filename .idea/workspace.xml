@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="dropdownlist">
-      <change afterPath="$PROJECT_DIR$/src/test/java/entryAds.java" afterDir="false" />
+    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="ads">
+      <change afterPath="$PROJECT_DIR$/src/test/java/exitIntent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dynamic_controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dynamic_controls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/drag_and_drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drag_and_drop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entryAds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entryAds.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,35 +51,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.entryAds.entryAds">
-    <configuration name="dropdown_list.contextMenu (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.exitIntent.exit_Intent">
+    <configuration name="drag_and_drop.exitIntent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dropdown_list" />
-      <option name="METHOD_NAME" value="contextMenu" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dynamic_controls" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="heroukapp_projects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dynamic_controls" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dynamic_controls.enable_disable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="heroukapp_projects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="dynamic_controls" />
-      <option name="METHOD_NAME" value="enable_disable" />
+      <option name="MAIN_CLASS_NAME" value="drag_and_drop" />
+      <option name="METHOD_NAME" value="exitIntent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,13 +88,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exitIntent.exit_Intent (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exitIntent" />
+      <option name="METHOD_NAME" value="exit_Intent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exitIntent.exit_Intent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="exitIntent" />
+      <option name="METHOD_NAME" value="exit_Intent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.exitIntent.exit_Intent" />
+        <item itemvalue="TestNG.exitIntent.exit_Intent (1)" />
+        <item itemvalue="TestNG.drag_and_drop.exitIntent" />
         <item itemvalue="TestNG.entryAds.entryAds" />
         <item itemvalue="TestNG.entryAds.enable_disable" />
-        <item itemvalue="TestNG.dynamic_controls" />
-        <item itemvalue="TestNG.dynamic_controls.enable_disable" />
-        <item itemvalue="TestNG.dropdown_list.contextMenu (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674696628476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ads">
+      <created>1675124995295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675124995295</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="checkboxs1" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkboxs1" />
+    <MESSAGE value="ads" />
+    <option name="LAST_COMMIT_MESSAGE" value="ads" />
   </component>
 </project>

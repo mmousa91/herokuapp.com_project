@@ -2,13 +2,15 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.Action;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class drag_and_drop {
+import java.awt.*;
+
+public class exitIntent {
 
     WebDriver driver = null;
 
@@ -25,23 +27,15 @@ public class drag_and_drop {
     }
 
     @Test
-    public void contextMenu () throws InterruptedException {
-        driver.navigate().to("https://the-internet.herokuapp.com/drag_and_drop");
-        Thread.sleep(2000);
+    public void exit_Intent () throws InterruptedException, AWTException {
+       driver.navigate().to("https://the-internet.herokuapp.com/exit_intent");
+
 
         Actions action = new Actions(driver);
+        action.moveByOffset(600,0).build().perform();
+        Robot robot = new Robot();
+        robot.mouseMove(600,0);
 
-       WebElement drag = driver.findElement(By.id("column-a"));
-
-        WebElement drop = driver.findElement(By.id("column-b"));
-
-        action.dragAndDrop(drag, drop).build().perform();
-
-
-
-       // Action draganddrop=action.clickAndHold(drag).moveToElement(drop).release(drop).build();
-
-       // draganddrop.perform();
 
         Thread.sleep(2000);
 
