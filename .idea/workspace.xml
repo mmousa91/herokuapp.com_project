@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="ads">
-      <change afterPath="$PROJECT_DIR$/src/test/java/exitIntent.java" afterDir="false" />
+    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="disappearing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/drag_and_drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drag_and_drop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entryAds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entryAds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/exitIntent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/exitIntent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,51 +46,50 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
   <component name="RunManager" selected="TestNG.exitIntent.exit_Intent">
-    <configuration name="drag_and_drop.exitIntent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="disappearing_elements (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="drag_and_drop" />
-      <option name="METHOD_NAME" value="exitIntent" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="disappearing_elements" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entryAds.enable_disable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="disappearing_elements (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="entryAds" />
-      <option name="METHOD_NAME" value="enable_disable" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="disappearing_elements" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="entryAds.entryAds" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="disappearing_elements" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="entryAds" />
-      <option name="METHOD_NAME" value="entryAds" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="disappearing_elements" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exitIntent.exit_Intent (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="disappearing_elements.disappearingElement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exitIntent" />
-      <option name="METHOD_NAME" value="exit_Intent" />
+      <option name="MAIN_CLASS_NAME" value="disappearing_elements" />
+      <option name="METHOD_NAME" value="disappearingElement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -115,10 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.exitIntent.exit_Intent" />
-        <item itemvalue="TestNG.exitIntent.exit_Intent (1)" />
-        <item itemvalue="TestNG.drag_and_drop.exitIntent" />
-        <item itemvalue="TestNG.entryAds.entryAds" />
-        <item itemvalue="TestNG.entryAds.enable_disable" />
+        <item itemvalue="TestNG.disappearing_elements (3)" />
+        <item itemvalue="TestNG.disappearing_elements" />
+        <item itemvalue="TestNG.disappearing_elements (2)" />
+        <item itemvalue="TestNG.disappearing_elements.disappearingElement" />
       </list>
     </recent_temporary>
   </component>
@@ -138,12 +135,12 @@
       <option name="project" value="LOCAL" />
       <updated>1674696628476</updated>
     </task>
-    <task id="LOCAL-00002" summary="ads">
-      <created>1675124995295</created>
+    <task id="LOCAL-00002" summary="addelements">
+      <created>1674755995023</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1675124995295</updated>
+      <updated>1674755995023</updated>
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
@@ -162,7 +159,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="checkboxs1" />
-    <MESSAGE value="ads" />
-    <option name="LAST_COMMIT_MESSAGE" value="ads" />
+    <MESSAGE value="addelements" />
+    <option name="LAST_COMMIT_MESSAGE" value="addelements" />
   </component>
 </project>
