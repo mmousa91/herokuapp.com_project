@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="ads">
-      <change afterPath="$PROJECT_DIR$/src/test/java/exitIntent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fileuploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scroll_down.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/drag_and_drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/drag_and_drop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entryAds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entryAds.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,62 +44,15 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.exitIntent.exit_Intent">
-    <configuration name="drag_and_drop.exitIntent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="heroukapp_projects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="drag_and_drop" />
-      <option name="METHOD_NAME" value="exitIntent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="entryAds.enable_disable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="heroukapp_projects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="entryAds" />
-      <option name="METHOD_NAME" value="enable_disable" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="entryAds.entryAds" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="heroukapp_projects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="entryAds" />
-      <option name="METHOD_NAME" value="entryAds" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exitIntent.exit_Intent (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="heroukapp_projects" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="exitIntent" />
-      <option name="METHOD_NAME" value="exit_Intent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="TestNG.scroll_down.scrollDown">
     <configuration name="exitIntent.exit_Intent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
@@ -112,13 +65,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fileuploader.downloadFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="fileuploader" />
+      <option name="METHOD_NAME" value="downloadFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileuploader.exit_Intent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="fileuploader" />
+      <option name="METHOD_NAME" value="exit_Intent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileuploader.uploadFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="fileuploader" />
+      <option name="METHOD_NAME" value="uploadFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scroll_down.scrollDown" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="heroukapp_projects" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="scroll_down" />
+      <option name="METHOD_NAME" value="scrollDown" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.scroll_down.scrollDown" />
+        <item itemvalue="TestNG.fileuploader.uploadFile" />
+        <item itemvalue="TestNG.fileuploader.downloadFile" />
+        <item itemvalue="TestNG.fileuploader.exit_Intent" />
         <item itemvalue="TestNG.exitIntent.exit_Intent" />
-        <item itemvalue="TestNG.exitIntent.exit_Intent (1)" />
-        <item itemvalue="TestNG.drag_and_drop.exitIntent" />
-        <item itemvalue="TestNG.entryAds.entryAds" />
-        <item itemvalue="TestNG.entryAds.enable_disable" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675124995295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ads">
+      <created>1675213628256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675213628256</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
