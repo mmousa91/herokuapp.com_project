@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5fd45c3-6147-4b77-8084-f4031b387ae3" name="Changes" comment="ads">
-      <change afterPath="$PROJECT_DIR$/src/test/java/frames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_29_2023_12_02_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_29_2023_12_02_PM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="disappearing">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scroll_down.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scroll_down.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/horizontalSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +43,20 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="TestNG.horizontalSlider.slider">
-    <configuration name="frames.iframe" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="drag_and_drop.exitIntent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="frames" />
-      <option name="METHOD_NAME" value="iframe" />
+      <option name="MAIN_CLASS_NAME" value="drag_and_drop" />
+      <option name="METHOD_NAME" value="exitIntent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,11 +64,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="frames.nestedFrame (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="entryAds.entryAds" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="frames" />
-      <option name="METHOD_NAME" value="nestedFrame" />
+      <option name="MAIN_CLASS_NAME" value="entryAds" />
+      <option name="METHOD_NAME" value="entryAds" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,11 +76,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="frames.nestedFrame" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="exitIntent.exit_Intent (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="frames" />
-      <option name="METHOD_NAME" value="nestedFrame" />
+      <option name="MAIN_CLASS_NAME" value="exitIntent" />
+      <option name="METHOD_NAME" value="exit_Intent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -90,11 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="horizontalSlider.slider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="exitIntent.exit_Intent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="horizontalSlider" />
-      <option name="METHOD_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="exitIntent" />
+      <option name="METHOD_NAME" value="exit_Intent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,10 +115,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.horizontalSlider.slider" />
-        <item itemvalue="TestNG.horizontalSlider.slider (1)" />
-        <item itemvalue="TestNG.frames.nestedFrame" />
-        <item itemvalue="TestNG.frames.nestedFrame (1)" />
-        <item itemvalue="TestNG.frames.iframe" />
+        <item itemvalue="TestNG.exitIntent.exit_Intent" />
+        <item itemvalue="TestNG.exitIntent.exit_Intent (1)" />
+        <item itemvalue="TestNG.drag_and_drop.exitIntent" />
+        <item itemvalue="TestNG.entryAds.entryAds" />
       </list>
     </recent_temporary>
   </component>

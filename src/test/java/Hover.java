@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class horizontalSlider {
+public class Hover {
 
     WebDriver driver = null;
 
@@ -26,16 +26,10 @@ public class horizontalSlider {
 
     @Test
     public void slider() throws InterruptedException {
-        driver.navigate().to("https://the-internet.herokuapp.com/horizontal_slider");
+        driver.navigate().to("https://the-internet.herokuapp.com/hovers");
 
         Actions action = new Actions(driver);
-       WebElement Slider = driver.findElement(By.cssSelector("[type=\"range\"]"));
-
-       WebElement outPut = driver.findElement(By.id("range"));
-
-        action.dragAndDropBy(Slider,10,0).release().perform();
-
-        System.out.println("the output after drag to right is : "+outPut.getText());
+       action.contextClick()
 
         Thread.sleep(5000);
 
