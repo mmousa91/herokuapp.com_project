@@ -1,16 +1,14 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import org.openqa.selenium.JavascriptExecutor;
+
 import java.io.IOException;
 
-public class scroll_down {
+public class horizontalSlider {
 
     WebDriver driver = null;
 
@@ -27,16 +25,16 @@ public class scroll_down {
     }
 
     @Test
-    public void scrollDown() throws InterruptedException {
-        driver.navigate().to("https://the-internet.herokuapp.com/floating_menu");
-       JavascriptExecutor js = (JavascriptExecutor) driver ;
-       js.executeScript ("window.scrollTo(0, document.body.scrollHeight)");
+    public void slider() throws InterruptedException {
+        driver.navigate().to("https://the-internet.herokuapp.com/horizontal_slider");
 
-        Thread.sleep(4000);
+        Actions action = new Actions(driver);
+       // action.clickAndHold(driver.findElement(By.cssSelector("[type=\"range\"]"))).sendKeys(Keys.ARROW_RIGHT).release().build().perform();
+        action.clickAndHold(driver.findElement(By.cssSelector("[type=\"range\"]")));
+        action.moveByOffset(1,0).build().perform();
 
-        Assert.assertTrue(driver.findElement(By.id("menu")).isDisplayed(),"not display");
+        Thread.sleep(5000);
 
-       Thread.sleep(4000);
 
     }
 
