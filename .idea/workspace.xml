@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5fd45c3-6147-4b77-8084-f4031b387ae3" name="Changes" comment="6-2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/keypress.java" afterDir="false" />
+    <list default="true" id="2d986645-3bd1-4e77-bedd-f0eab7f34b9f" name="Changes" comment="6-2 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/deepNested.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/opennewWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Hover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Hover.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,15 +47,16 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.keypress.slider">
-    <configuration name="Hover.slider" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.opennewWindow.newWindow">
+    <configuration name="deepNested.scrollDown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Hover" />
-      <option name="METHOD_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="deepNested" />
+      <option name="METHOD_NAME" value="scrollDown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -63,11 +64,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="horizontalSlider.slider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="exitIntent.exit_Intent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="horizontalSlider" />
-      <option name="METHOD_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="exitIntent" />
+      <option name="METHOD_NAME" value="exit_Intent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -87,11 +88,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="keypress.slider (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="opennewWindow.newWindow (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="keypress" />
-      <option name="METHOD_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="opennewWindow" />
+      <option name="METHOD_NAME" value="newWindow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,11 +100,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="keypress.slider" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="opennewWindow.newWindow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="heroukapp_projects" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="keypress" />
-      <option name="METHOD_NAME" value="slider" />
+      <option name="MAIN_CLASS_NAME" value="opennewWindow" />
+      <option name="METHOD_NAME" value="newWindow" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.keypress.slider" />
-        <item itemvalue="TestNG.keypress.slider (1)" />
-        <item itemvalue="TestNG.Hover.slider" />
+        <item itemvalue="TestNG.opennewWindow.newWindow" />
+        <item itemvalue="TestNG.opennewWindow.newWindow (1)" />
+        <item itemvalue="TestNG.deepNested.scrollDown" />
         <item itemvalue="TestNG.horizontalSlider.slider" />
-        <item itemvalue="TestNG.horizontalSlider.slider (1)" />
+        <item itemvalue="TestNG.exitIntent.exit_Intent" />
       </list>
     </recent_temporary>
   </component>
