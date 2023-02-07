@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class Hover {
+public class keypress {
 
     WebDriver driver = null;
 
@@ -26,17 +26,24 @@ public class Hover {
 
     @Test
     public void slider() throws InterruptedException {
-        driver.navigate().to("https://the-internet.herokuapp.com/hovers");
+        driver.navigate().to("https://the-internet.herokuapp.com/key_presses");
+
+      //  driver.findElement(By.id("target")).click();
 
         Actions action = new Actions(driver);
-     action.moveToElement(driver.findElement(By.xpath("//img[@src=\"/img/avatar-blank.jpg\"]"))).build().perform();
+        WebElement output = driver.findElement(By.id("result"));
 
-        System.out.println("this is :" + driver.findElement(By.xpath("//div[@class=\"figcaption\"]")).getText());
+        action.sendKeys(Keys.ENTER).build().perform();
+        System.out.println( output.getText());
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//a[@href=\"/users/1\"]")).click();
 
-        Assert.assertEquals(driver.getCurrentUrl(),"https://the-internet.herokuapp.com/users/1");
+        action.sendKeys(Keys.TAB).build().perform();
+        System.out.println( output.getText());
 
+        action.sendKeys(Keys.ESCAPE).build().perform();
+        System.out.println( output.getText());
+
+        // action.sendKeys(Keys.ENTER);
         Thread.sleep(5000);
 
 
