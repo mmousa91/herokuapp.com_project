@@ -1,6 +1,7 @@
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.time.Duration;
 
-public class opennewWindow {
+public class notificationMsg {
 
     WebDriver driver = null;
 
@@ -27,20 +28,31 @@ public class opennewWindow {
     }
 
     @Test
-    public void newWindow() throws InterruptedException {
-        driver.navigate().to("https://the-internet.herokuapp.com/windows");
-String parentwindow = driver.getWindowHandle();
-        driver.findElement(By.linkText("Click Here")).click();
-      //  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+    public void notiMsg() throws InterruptedException {
+        driver.navigate().to("https://the-internet.herokuapp.com/notification_message_rendered");
 
-Thread.sleep(3000);
-driver.switchTo().window(parentwindow);
-      //  driver.switchTo().newWindow(WindowType.WINDOW);
-       // System.out.println("the new window name is : " + driver.getTitle());
-      //  driver.close();
+     //   driver.findElement(By.linkText("Click here")).click();
+
+       // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+
+      //  wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("flash"))));
+
+       // Thread.sleep(3000);
+
+    //   String msg = driver.findElement(By.id("flash")).getText();
+
+     //  System.out.println("the msg is : " + msg);
 
 
-        Thread.sleep(3000);
+
+for (int i =0 ;i<2; i++) {
+    driver.findElement(By.linkText("Click here")).click();
+    String msg2 = driver.findElement(By.id("flash")).getText();
+
+    System.out.println("the msg is : " + msg2);
+
+
+}
 
 
 
