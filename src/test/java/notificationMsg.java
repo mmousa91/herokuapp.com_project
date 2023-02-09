@@ -47,15 +47,14 @@ public class notificationMsg {
 
 for (int i =0 ;i<2; i++) {
     driver.findElement(By.linkText("Click here")).click();
+
+    Thread.sleep(3000);
     String msg2 = driver.findElement(By.id("flash")).getText();
 
     System.out.println("the msg is : " + msg2);
 
-
 }
-
-
-
+Thread.sleep(3000);
     }
 
 

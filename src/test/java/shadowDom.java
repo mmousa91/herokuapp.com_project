@@ -1,16 +1,16 @@
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.openqa.selenium.JavascriptExecutor;
 import java.io.IOException;
-import java.time.Duration;
 
-public class opennewWindow {
+public class shadowDom {
 
     WebDriver driver = null;
 
@@ -27,24 +27,15 @@ public class opennewWindow {
     }
 
     @Test
-    public void newWindow() throws InterruptedException {
-        driver.navigate().to("https://the-internet.herokuapp.com/windows");
+    public void Shadow() throws InterruptedException {
+        driver.navigate().to("https://the-internet.herokuapp.com/shadowdom");
 
-        driver.findElement(By.linkText("Click Here")).click();
-      //  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+     WebElement shadow= driver.findElement(By.id("content")).getShadowRoot().findElement(By.cssSelector("span[slot=\"my-text\"]"));
 
-Thread.sleep(3000);
-      //  driver.switchTo().newWindow(WindowType.WINDOW);
-       // System.out.println("the new window name is : " + driver.getTitle());
-      //  driver.close();
+     Assert.assertEquals("Let's have some different text!",shadow.getText());
 
-
-       // Thread.sleep(3000);
-
-
-
+     Thread.sleep(3000);
     }
-
 
 
     @AfterTest
